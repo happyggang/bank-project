@@ -90,15 +90,15 @@ header {position: fixed; width: 100%; height: 100px; top:0; left: 0;z-index: 999
 
 /*section3*/
 #section3 {position: relative; height: 100%;}
-#section3 .inner {width: 100%; max-width: 1033px; height: calc(100% -100px); margin: 0 auto;}
+#section3 .inner {width: 100%; max-width: 1033px; height: calc(100%); margin: 0 auto;}
 #section3 .inner .topBox { display: flex; flex-direction: row;  color: #333333; position: absolute; top: 300px;}
 #section3 .inner .topBox .tit span { font-weight: 700; font-size: 60px; margin-right: 5px;}
 #section3 .inner .topBox .tit { font-weight: 400; font-size: 60px; margin-right: 15px;}
 #section3 .inner .topBox .txt { font-size: 20px; margin-top: 15px; }
 #section3 .inner .bottomBox {display: flex; justify-content: center; text-align: center; height: 100%; width: 100%;}
-#section3 .inner .bottomBox .txtWrap { border-left: 1px solid #f0f0f0; padding: 36% 25px 0 0px; }
-#section3 .inner .bottomBox .txtWrap .tit {color: #333333; font-size: 23px; font-weight: 500; }
-#section3 .inner .bottomBox .txtWrap .txt { color: #4764c5; font-size: 15px; line-height: 1.3; margin-top: 20px;}
+#section3 .inner .bottomBox .txtWrap { border-left: 1px solid #f0f0f0; padding: 43% 9px 0 0px; }
+#section3 .inner .bottomBox .txtWrap .tit {color: #333333; font-size: 23px; font-weight: 500; margin-left: 40px;}
+#section3 .inner .bottomBox .txtWrap .txt { color: #4764c5; font-size: 15px; line-height: 1.3; margin-top: 20px; margin-left: 40px;}
 
 
 /*section4*/
