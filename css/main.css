@@ -21,6 +21,10 @@ li {list-style: none;}
 #section3 {background-color: #FFFFFF;}
 #section4 {background-color: #FFFFFF;}
 
+/* FixBtn */
+.fixBtn {  display: flex; flex-direction: column; position: fixed; height: 90px; width: 90px; right: 10px; bottom: 100px; border-radius: 0 20px 0 20px; z-index: 100; background: rgba(0,34,34,.85); }
+.fixBtn .img { margin-top: 20px; margin-left: 28px; }
+.fixBtn .txt { color: #FFFFFF; margin-top: 3px; margin-left: 18px;}
 
 /*header*/
 header {position: fixed; width: 100%; height: 90px; top:0; left: 0;z-index: 9999; background: #FFFFFF; box-shadow: 1px 1px 10px rgb(0 0 0 / 15%); }
@@ -172,7 +176,3 @@ header {position: fixed; width: 100%; height: 90px; top:0; left: 0;z-index: 9999
 .footer .inner .bottomBox .select select::-ms-expand { display: none; }
 
 
-/* FixBtn */
-.fixBtn { display: flex; flex-direction: column; position: fixed; height: 90px; width: 90px; right: 10px; bottom: 100px; border-radius: 0 20px 0 20px; z-index: 100; background: rgba(0,34,34,.85); }
-.fixBtn .img { margin-top: 20px; }
-.fixBtn .txt { color: #FFFFFF; margin-top: 3px;}
