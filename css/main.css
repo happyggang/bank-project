@@ -17,7 +17,7 @@ li {list-style: none;}
 .logo { position: relative; top: -5px; }
 /*fullPage*/
 .section {background-size: cover; position: relative;}
-#section1 {background: #FFFFFF no-repeat center center; background-size: cover} /* url(../img/bg-main-section01.png) */
+#section1 {background: #e4ebf8 no-repeat center center; background-size: cover} /* url(../img/bg-main-section01.png) */
 #section2 {background-color: #dAE7FF;}
 #section3 {background-color: #FFFFFF;}
 #section4 {background-color: #FFFFFF;}
@@ -64,7 +64,7 @@ header { position: fixed; width: 100%; padding: 10px 0; z-index: 9999; backgroun
 #section1 .inner .topBox .item1 .txtWrap .txt  p span { font-weight: 700; }
 #section1 .inner .topBox .item1 .btnWrap { display: flex;  margin-bottom: 20px;}
 #section1 .inner .topBox .item2 .section1_rgt-image { width: 100%; }
-#section1 .inner .topBox .item2 .drone { position: absolute; top: 120px; right: 603px; animation: motion 2s linear 0s infinite alternate; margin-top: 0; }
+#section1 .inner .topBox .item2 .drone { position: absolute; top: 120px; right: 500px; animation: motion 2s linear 0s infinite alternate; margin-top: 0; }
 @keyframes motion {
 	0% {margin-top: 0px;}
 	100% {margin-top: 10px;}
@@ -83,7 +83,7 @@ header { position: fixed; width: 100%; padding: 10px 0; z-index: 9999; backgroun
 
 /*section2*/
 #section2 {position: relative; height: 100%;}
-#section2 .inner {width: 100%; max-width: 1100px; margin: 0 auto;}
+#section2 .inner {width: 100%; max-width: 1400px; margin: 0 auto;}
 #section2 .inner .check { color: #ae26e4; font-size: 45px; }
 #section2 .inner .check img{ margin-bottom: 35px ; }
 #section2 .inner .question{ color: #4764c5; font-size: 60px; font-weight: 400;}
@@ -102,7 +102,7 @@ header { position: fixed; width: 100%; padding: 10px 0; z-index: 9999; backgroun
 
 /*section3*/
 #section3 {position: relative; height: 100%;}
-#section3 .inner {width: 100%; max-width: 1033px; height: calc(100%); margin: 0 auto;}
+#section3 .inner {width: 100%; max-width: 1400px; height: calc(100%); margin: 0 auto;}
 #section3 .inner .topBox { display: flex; flex-direction: row;  color: #333333; position: absolute; top: 188px; left: 367px;}
 #section3 .inner .topBox .tit span { font-weight: 700; font-size: 60px; margin-right: 5px;}
 #section3 .inner .topBox .tit { font-weight: 400; font-size: 60px; margin-right: 15px;}
@@ -115,7 +115,7 @@ header { position: fixed; width: 100%; padding: 10px 0; z-index: 9999; backgroun
 
 /*section4*/
 #section4 {position: relative; height: 100%;}
-#section4 .inner {width: 100%; max-width: 1100px; margin: 0 auto;}
+#section4 .inner {width: 100%; max-width: 1400px; margin: 0 auto;}
 #section4 .inner .topBox .hashtag { font-size: 28px; color: #4764c5;}
 #section4 .inner .topBox .tit { display: flex; flex-direction: row; margin-top: 15px; color: #333333;}
 #section4 .inner .topBox .tit h2 { font-size: 70px; }
